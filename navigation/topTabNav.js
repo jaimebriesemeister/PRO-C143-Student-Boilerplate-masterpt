@@ -16,8 +16,8 @@ export default function TopTabNav() {
       tabBarActiveTintColor: 'white',
     }}>
       <AppTopNavigation.Screen name="Popular" component={PopularMoviesScreen} />
-      <AppTopNavigation.Screen name="Recommended" component={RecommendedMoviesScreen} />
-      <AppTopNavigation.Screen name="Liked" component={LikedMoviesScreen} />
+      <AppTopNavigation.Screen name="Recomendado" component={RecommendedMoviesScreen} />
+      <AppTopNavigation.Screen name="Curtido" component={LikedMoviesScreen} />
     </AppTopNavigation.Navigator>
   );
 }
